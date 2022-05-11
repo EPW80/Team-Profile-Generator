@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "jest": "^28.1.0"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "name": "team-profile-generator",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EPW80/Team-Profile-Generator.git"
+  },
+  "author": "Erik Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EPW80/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/EPW80/Team-Profile-Generator#readme"
+}
