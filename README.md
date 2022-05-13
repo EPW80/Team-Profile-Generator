@@ -112,11 +112,11 @@ The following image shows the generated HTML’s appearance. The styling is leve
 
 ### Desktop screenshot
 
-![Desktop screenshot](.assets/images/desktop.png)
+![Desktop screenshot](./assets/images/desktop.png)
 
 ### Responsive mobile screenshot
 
-<!-- ![mobile screenshot](./images/mobile.png) -->
+<!-- ![mobile screenshot](./assets/images/mobile.png) -->
 
 ## Starting the application
 
