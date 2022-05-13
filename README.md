@@ -112,11 +112,11 @@ The following image shows the generated HTML’s appearance. The styling is leve
 
 ### Desktop screenshot
 
-![Desktop screenshot](./images/desktop.png)
+![Desktop screenshot](.assets/images/desktop.png)
 
 ### Responsive mobile screenshot
 
-![mobile screenshot](./images/mobile.png)
+<!-- ![mobile screenshot](./images/mobile.png) -->
 
 ## Starting the application
 
@@ -134,7 +134,7 @@ This application uses [Jest](https://www.npmjs.com/package/jest) for running the
 npm test
 ```
 
-![Jest tests ALL passing](./images/tests.png)
+![Jest tests ALL passing](./assets/images/tests.png)
 
 ## Demo video of running tests & application
 
@@ -145,25 +145,25 @@ npm test
 ```
 .
 ├── Manager
-   ├── Bill Lumbergh
+   ├── Erik Williams
    ├── 1
-   ├── bill.lumbergh@initech.com
-   ├── cubical 452B
+   ├── erikpw009@gmail.com@
+   ├── Cal State Fullerton
+├── engineer
+   ├── Anthony Ladesma
+   ├── 2
+   ├── anthony.ladesma@fakemail.com
+   ├── UCLA Coding Bootcamp
+├── Engineer
+   ├── Mohammed Elzanaty
+   ├── 3
+   ├── mohammed.elzanaty@fakemail.com
+   ├── zanatooo
 ├── Intern
-   ├── Peter Gibbons
-   ├── 22
-   ├── peter.gibbons@initech.com
-   ├── University of Washington
-├── Engineer
-   ├── Samir Nagheenanajar
-   ├── 33
-   ├── samir.nagheenanajar@initech.com
-   ├── bravotango
-├── Engineer
-   ├── Michael Bolton
-   ├── 44
-   ├── michael.bolton@initech.com
-   ├── bolton
+   ├── Victor Lawal
+   ├── 4
+   ├── victor.lawal@fakemail.com
+   ├── UCLA CODING Bootcamp
 
 ```
 
