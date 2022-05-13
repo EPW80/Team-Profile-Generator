@@ -149,7 +149,7 @@ npm test
    ├── 1
    ├── erikpw009@gmail.com@
    ├── Cal State Fullerton
-├── engineer
+├── Engineer
    ├── Anthony Ladesma
    ├── 2
    ├── anthony.ladesma@fakemail.com
@@ -169,4 +169,4 @@ npm test
 
 ## Link to output HTML file
 
-<!-- [Output HTML file](https://htmlpreview.github.io/?https://github.com/bravotango/Team-Profile-Generator/blob/main/dist/index.html) -->
+[Output HTML file](https://htmlpreview.github.io/?https://github.com/EPW80/Team-Profile-Generator/blob/main/dist/index.html)
