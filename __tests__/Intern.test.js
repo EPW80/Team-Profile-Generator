@@ -4,7 +4,7 @@ describe("Intern", () => {
   const name = "Victor Lawal";
   const id = 4;
   // const email = "milton.waddams@initech.com";
-  // const school = "University of Washington";
+  const school = "UCLA Coding Bootcamp";
   const role = "Intern";
   const testIntern = new Intern(name, id);
 
