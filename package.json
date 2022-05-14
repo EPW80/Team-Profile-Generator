@@ -1,26 +1,30 @@
 {
-  "devDependencies": {
-    "jest": "^28.1.0"
-  },
-  "dependencies": {
-    "express": "^4.18.1",
-    "inquirer": "^8.2.4"
-  },
   "name": "team-profile-generator",
-  "description": "",
   "version": "1.0.0",
+  "description": "Your task is to build a Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. Testing is key to making code maintainable, so you’ll also write a unit test for every part of your code and ensure that it passes each test.",
   "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/EPW80/Team-Profile-Generator.git"
   },
-  "author": "Erik Williams",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/EPW80/Team-Profile-Generator/issues"
   },
-  "homepage": "https://github.com/EPW80/Team-Profile-Generator#readme"
+  "homepage": "https://github.com/EPW80/Team-Profile-Generator#readme",
+  "dependencies": {
+    "bootstrap-icons": "^1.8.2",
+    "email-validator": "^2.0.4",
+    "inquirer": "^8.2.0"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
 }
