@@ -108,7 +108,7 @@ In addition to `Employee`'s properties and methods, `Intern` also have the follo
 
 ## Screenshots of generated HTML
 
-The following image shows the generated HTML’s appearance. The styling is leveraging BootStrap CSS 5.
+The following image shows the generated HTML’s appearance. 
 
 ### Desktop screenshot
 
@@ -139,7 +139,7 @@ npm test
 
 ## Demo video of running tests & application
 
-<!-- [Demo video of running tests & program & output](https://watch.screencastify.com/v/MsUQlvRll3RFSB3oDrYQ) -->
+<!-- [Demo video of running tests & program & output]() -->
 
 ### Entries used in demo video
 
