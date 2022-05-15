@@ -116,7 +116,8 @@ The following image shows the generated HTML’s appearance. The styling is leve
 
 ### Responsive mobile screenshot
 
-<!-- ![mobile screenshot](./assets/images/mobile.png) -->
+![mobile screenshot](./assets/images/phone1.JPG)
+![mobile screenshot](./assets/images/phone2.JPG)
 
 ## Starting the application
 
