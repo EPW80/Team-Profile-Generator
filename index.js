@@ -19,12 +19,10 @@ const htmlCard = (e) => {
   let icon = "";
   switch (e.getRole()) {
     case Employee.Manager:
-      // roleInfo = `<i class="bi bi-building"></i> Office: <strong>${e.officeNumber}</strong>`;
       employeeTypeClasses = "bg-primary bg-gradient text-light";
       icon = "<i class='bi bi-cup-straw'></i>";
       break;
     case Employee.Intern:
-      // roleInfo = `<i class="bi bi-globe"></i> School: <strong>${e.getSchool()}</strong>`;
       employeeTypeClasses = "bg-success bg-gradient text-light";
       icon = "<i class='bi bi-mortarboard-fill'></i>";
       break;
@@ -147,21 +145,12 @@ const questions = () => {
           return validation.required(response) && validation.email(response);
         },
       },
-      // {
-      //   type: "input",
-      //   name: "managerOfficeNumber",
-      //   message: "What is the manager's office number?",
-      //   validate: (response) => {
-      //     return validation.required(response);
-      //   },
-      // },
     ])
     .then((answers) => {
       const manager = new Manager(
         answers.managerName,
         answers.managerId,
         answers.managerEmail,
-        // answers.managerOfficeNumber
       );
       employees.push(manager);
       repeatQuestions();
@@ -201,15 +190,6 @@ const repeatQuestions = () => {
           return validation.required(response) && validation.email(response);
         },
       },
-      // {
-      //   type: "input",
-      //   message: "What school is the intern from?",
-      //   name: "internSchool",
-      //   when: (answers) => answers.employeeType === Employee.Intern,
-      //   validate: (response) => {
-      //     return validation.required(response);
-      //   },
-      // },
       {
         type: "input",
         message: "What is the engineer's gitHub username?",
@@ -231,7 +211,6 @@ const repeatQuestions = () => {
           answers.employeeName,
           answers.employeeId,
           answers.employeeEmail,
-          // answers.internSchool
         );
         employees.push(intern);
       }
