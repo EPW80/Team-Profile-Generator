@@ -139,7 +139,7 @@ npm test
 
 ## Demo video of running tests & application
 
-<!-- [Demo video of running tests & program & output]() -->
+[Demo video of running tests & program & output](https://youtu.be/G0ZToAT8TqA)
 
 ### Entries used in demo video
 
