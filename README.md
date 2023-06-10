@@ -79,8 +79,6 @@ The following image shows the generated HTML’s appearance.
 
 ![mobile screenshot](./assets/images/phone1.JPG)
 
-![mobile screenshot](./assets/images/phone2.JPG)
-
 ## Starting the application
 
 This application uses [Inquirer](https://www.npmjs.com/package/inquirer) for collecting input from the user. The application will be invoked by using the following command:
@@ -99,7 +97,7 @@ npm test
 
 ![Jest tests ALL passing](./assets/images/tests.png)
 
-### Entries used in demo video
+### Entries used
 
 ```
 .
