@@ -150,7 +150,7 @@ const questions = () => {
       const manager = new Manager(
         answers.managerName,
         answers.managerId,
-        answers.managerEmail,
+        answers.managerEmail
       );
       employees.push(manager);
       repeatQuestions();
@@ -210,7 +210,7 @@ const repeatQuestions = () => {
         const intern = new Intern(
           answers.employeeName,
           answers.employeeId,
-          answers.employeeEmail,
+          answers.employeeEmail
         );
         employees.push(intern);
       }

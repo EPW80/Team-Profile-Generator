@@ -1,6 +1,6 @@
 # Team Profile Generator
 
-This is a Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. Testing is key to making code maintainable, so there are unit tests for every part of the code to ensure that the application is working without errors.
+This Node.js command-line application collects information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person. To ensure the maintainability of the code, unit tests have been written for every part of the application to confirm that it operates without errors.
 
 ## Application structure
 
@@ -78,6 +78,7 @@ The following image shows the generated HTML’s appearance.
 ### Responsive mobile screenshot
 
 ![mobile screenshot](./assets/images/phone1.JPG)
+
 ![mobile screenshot](./assets/images/phone2.JPG)
 
 ## Starting the application
@@ -97,10 +98,6 @@ npm test
 ```
 
 ![Jest tests ALL passing](./assets/images/tests.png)
-
-## Demo video of running tests & application
-
-[Demo video of running tests & program & output](https://youtu.be/G0ZToAT8TqA)
 
 ### Entries used in demo video
 
